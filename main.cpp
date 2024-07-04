@@ -8,5 +8,4 @@ int main()
     Temp temp;
     temp.output();
     return 0;
-
 }
