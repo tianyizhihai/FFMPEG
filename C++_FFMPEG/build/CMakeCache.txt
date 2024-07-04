@@ -112,7 +112,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/bu
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/_FFMPEG
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/FFMPEG
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=F:/C++/MINGW64/bin/ld.exe
@@ -249,24 +249,6 @@ FFMPEG_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 FFMPEG_SOURCE_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/build
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG
-
-//Value Computed by CMake
-_FFMPEG_BINARY_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/build
-
-//Value Computed by CMake
-_FFMPEG_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-_FFMPEG_SOURCE_DIR:STATIC=F:/C++Pro/Git/tianyizhihai/C++_FFMPEG
 
 
 ########################

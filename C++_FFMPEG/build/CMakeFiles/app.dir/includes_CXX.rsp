@@ -1,1 +1,1 @@
--IF:/C++/SDL2/include -I"F:/C++/FFMPEG-SHARE/include" -IF:/C++Pro/Git/tianyizhihai/C++_FFMPEG/include
+-IF:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include -IF:/C++Pro/Git/tianyizhihai/C++_FFMPEG/include

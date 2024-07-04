@@ -1,5 +1,6 @@
 CMakeFiles/app.dir/main.cpp.obj: \
  F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/main.cpp \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/include/vPlayer_sdl2.h \
  F:/C++/MINGW64/include/c++/13.2.0/iostream \
  F:/C++/MINGW64/include/c++/13.2.0/bits/requires_hosted.h \
  F:/C++/MINGW64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -139,13 +140,13 @@ CMakeFiles/app.dir/main.cpp.obj: \
  F:/C++/MINGW64/include/c++/13.2.0/bits/ostream.tcc \
  F:/C++/MINGW64/include/c++/13.2.0/istream \
  F:/C++/MINGW64/include/c++/13.2.0/bits/istream.tcc \
- F:/C++/FFMPEG-SHARE/include/libavcodec/avcodec.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/samplefmt.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/avcodec.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/samplefmt.h \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  F:/C++/MINGW64/include/stdint.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/attributes.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/avutil.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/common.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/attributes.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/avutil.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/common.h \
  F:/C++/MINGW64/include/inttypes.h \
  F:/C++/MINGW64/include/c++/13.2.0/math.h \
  F:/C++/MINGW64/include/c++/13.2.0/cmath F:/C++/MINGW64/include/math.h \
@@ -165,54 +166,63 @@ CMakeFiles/app.dir/main.cpp.obj: \
  F:/C++/MINGW64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
  F:/C++/MINGW64/include/string.h \
  F:/C++/MINGW64/include/sec_api/string_s.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/attributes.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/error.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/macros.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/avconfig.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/version.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/mem.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/rational.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/mathematics.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/intfloat.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/log.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/attributes.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/error.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/macros.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/avconfig.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/version.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/mem.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/rational.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/mathematics.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/intfloat.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/log.h \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
  F:/C++/MINGW64/include/stdarg.h F:/C++/MINGW64/include/_mingw_stdarg.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/pixfmt.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/buffer.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/channel_layout.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/dict.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/frame.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/avutil.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/buffer.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/channel_layout.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/dict.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/samplefmt.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/log.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/pixfmt.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/rational.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/codec.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/hwcontext.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/frame.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/codec_id.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/version_major.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/version_major.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/codec_id.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/defs.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/packet.h \
- F:/C++/FFMPEG-SHARE/include/libavutil/version.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/version.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/codec_desc.h \
- F:/C++/FFMPEG-SHARE/include/libavcodec/codec_par.h \
- F:/C++/SDL2/include/SDL.h F:/C++/SDL2/include/SDL_main.h \
- F:/C++/SDL2/include/SDL_stdinc.h F:/C++/SDL2/include/SDL_config.h \
- F:/C++/SDL2/include/SDL_platform.h F:/C++/SDL2/include/begin_code.h \
- F:/C++/SDL2/include/close_code.h F:/C++/MINGW64/include/winsdkver.h \
- F:/C++/MINGW64/include/winapifamily.h F:/C++/MINGW64/include/sdkddkver.h \
- F:/C++/SDL2/include/SDL_assert.h F:/C++/SDL2/include/SDL_atomic.h \
- F:/C++/SDL2/include/SDL_audio.h F:/C++/SDL2/include/SDL_error.h \
- F:/C++/SDL2/include/SDL_endian.h F:/C++/SDL2/include/SDL_mutex.h \
- F:/C++/SDL2/include/SDL_thread.h F:/C++/SDL2/include/SDL_rwops.h \
- F:/C++/SDL2/include/SDL_clipboard.h F:/C++/SDL2/include/SDL_cpuinfo.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/pixfmt.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/buffer.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/channel_layout.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/dict.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/frame.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/avutil.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/buffer.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/channel_layout.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/dict.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/samplefmt.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/log.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/pixfmt.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/rational.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/codec.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/hwcontext.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/frame.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/codec_id.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/version_major.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/version_major.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/codec_id.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/defs.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/packet.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavutil/version.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/version.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/codec_desc.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/libavcodec/codec_par.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_main.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_stdinc.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_config.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_platform.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/begin_code.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/close_code.h \
+ F:/C++/MINGW64/include/winsdkver.h F:/C++/MINGW64/include/winapifamily.h \
+ F:/C++/MINGW64/include/sdkddkver.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_assert.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_atomic.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_audio.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_error.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_endian.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_mutex.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_thread.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_rwops.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_clipboard.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_cpuinfo.h \
  F:/C++/MINGW64/include/intrin.h F:/C++/MINGW64/include/setjmp.h \
  F:/C++/MINGW64/include/psdk_inc/intrin-impl.h \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/x86intrin.h \
@@ -314,20 +324,36 @@ CMakeFiles/app.dir/main.cpp.obj: \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/ammintrin.h \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xopintrin.h \
  F:/C++/MINGW64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cpuid.h \
- F:/C++/SDL2/include/SDL_events.h F:/C++/SDL2/include/SDL_video.h \
- F:/C++/SDL2/include/SDL_pixels.h F:/C++/SDL2/include/SDL_rect.h \
- F:/C++/SDL2/include/SDL_surface.h F:/C++/SDL2/include/SDL_blendmode.h \
- F:/C++/SDL2/include/SDL_keyboard.h F:/C++/SDL2/include/SDL_keycode.h \
- F:/C++/SDL2/include/SDL_scancode.h F:/C++/SDL2/include/SDL_mouse.h \
- F:/C++/SDL2/include/SDL_joystick.h F:/C++/SDL2/include/SDL_guid.h \
- F:/C++/SDL2/include/SDL_gamecontroller.h \
- F:/C++/SDL2/include/SDL_sensor.h F:/C++/SDL2/include/SDL_quit.h \
- F:/C++/SDL2/include/SDL_gesture.h F:/C++/SDL2/include/SDL_touch.h \
- F:/C++/SDL2/include/SDL_filesystem.h F:/C++/SDL2/include/SDL_haptic.h \
- F:/C++/SDL2/include/SDL_hidapi.h F:/C++/SDL2/include/SDL_hints.h \
- F:/C++/SDL2/include/SDL_loadso.h F:/C++/SDL2/include/SDL_log.h \
- F:/C++/SDL2/include/SDL_messagebox.h F:/C++/SDL2/include/SDL_metal.h \
- F:/C++/SDL2/include/SDL_power.h F:/C++/SDL2/include/SDL_render.h \
- F:/C++/SDL2/include/SDL_shape.h F:/C++/SDL2/include/SDL_system.h \
- F:/C++/SDL2/include/SDL_timer.h F:/C++/SDL2/include/SDL_version.h \
- F:/C++/SDL2/include/SDL_locale.h F:/C++/SDL2/include/SDL_misc.h
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_events.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_video.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_pixels.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_rect.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_surface.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_blendmode.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_keyboard.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_keycode.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_scancode.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_mouse.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_joystick.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_guid.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_gamecontroller.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_sensor.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_quit.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_gesture.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_touch.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_filesystem.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_haptic.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_hidapi.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_hints.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_loadso.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_log.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_messagebox.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_metal.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_power.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_render.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_shape.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_system.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_timer.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_version.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_locale.h \
+ F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/source/include/SDL_misc.h

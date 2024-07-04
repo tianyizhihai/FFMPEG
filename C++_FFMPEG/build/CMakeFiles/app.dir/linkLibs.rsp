@@ -1,1 +1,1 @@
-  -LF:/C++/SDL2/lib/x64  -L"F:/C++/FFMPEG-SHARE/lib"  -lSDL2 -lavformat -lavutil -lavcodec -lavdevice -lavfilter -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"F:/C++/FFMPEG-SHARE/lib"  -LF:/C++/SDL2/lib/x64  -lSDL2 -lavformat -lavutil -lavcodec -lavdevice -lavfilter -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
