@@ -1,0 +1,3 @@
+F:/C++Pro/Git/FFMPEG/build/CMakeFiles/app.dir
+F:/C++Pro/Git/FFMPEG/build/CMakeFiles/edit_cache.dir
+F:/C++Pro/Git/FFMPEG/build/CMakeFiles/rebuild_cache.dir
