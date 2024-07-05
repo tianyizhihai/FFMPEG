@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/bin/app.exe"
+			"path" : "F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/bin/RelWithDebInfo/app.exe"
 		},
 		{
-			"path" : "F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/bin/app.pdb"
+			"path" : "F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/bin/RelWithDebInfo/app.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -77,7 +77,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+				},
+				{
+					"fragment" : "-std:c++20"
 				}
 			],
 			"includes" : 
@@ -92,7 +95,7 @@
 				},
 				{
 					"backtrace" : 7,
-					"path" : "F:/C++Pro/Git/tianyizhihai/C++_FFMPEG/include"
+					"path" : "D:/LB/Projects/tianyizhihai/C++_FFMPEG/include"
 				}
 			],
 			"language" : "CXX",
@@ -112,61 +115,67 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
 	"id" : "app::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LF:/C++/SDL2/lib/x64",
+				"fragment" : "-LIBPATH:F:\\C++\\SDL2\\lib\\x64",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-LF:/C++/FFMPEG-SHARE/lib",
+				"fragment" : "-LIBPATH:F:\\C++\\FFMPEG-SHARE\\lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lSDL2",
+				"fragment" : "SDL2.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lavformat",
+				"fragment" : "avformat.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lavutil",
+				"fragment" : "avutil.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lavcodec",
+				"fragment" : "avcodec.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lavdevice",
+				"fragment" : "avdevice.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-lavfilter",
+				"fragment" : "avfilter.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
 		],

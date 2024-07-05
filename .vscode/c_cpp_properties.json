@@ -4,16 +4,16 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/C++_FFMPEG/include",
-                "F:/C++/FFMPEG-SHARE/include",
-                "F:/C++/SDL2/include"
+                "${workspaceFolder}/C++_FFMPEG/include"
+                // "F:/C++/FFMPEG-SHARE/include",
+                // "F:/C++/SDL2/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "F:\\C++\\MINGW64\\bin\\g++.exe",
+            // "compilerPath": "F:\\C++\\MINGW64\\bin\\g++.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64"

@@ -1,0 +1,10 @@
+^D:\LB\PROJECTS\TIANYIZHIHAI\C++_FFMPEG\BUILD\CMAKEFILES\B71F39372E9461B7FF0BB9285E9A6977\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/LB/Projects/tianyizhihai/C++_FFMPEG -BD:/LB/Projects/tianyizhihai/C++_FFMPEG/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LB/Projects/tianyizhihai/C++_FFMPEG/build/FFMPEG.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
