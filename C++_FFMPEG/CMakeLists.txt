@@ -15,7 +15,6 @@ link_directories("F:/C++/FFMPEG-SHARE/lib")
 include_directories(${PROJECT_SOURCE_DIR}/include)
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src SRC_LIST)
 
-
 #生成可执行文件
 add_executable(app main.cpp ${SRC_LIST})
 
