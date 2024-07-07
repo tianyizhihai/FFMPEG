@@ -23,4 +23,7 @@ avutil
 avcodec
 avdevice
 avfilter
+swscale
+swresample
+postproc
 )

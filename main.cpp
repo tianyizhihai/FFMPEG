@@ -1,11 +1,8 @@
 #include "vPlayer_sdl2.h"
 #undef main 
-using namespace std;
-using namespace FFMPEG_TEST;
 int main()
 {
-    cout<<"ffmpeg"<<endl;
-    Temp temp;
-    temp.output();
-    return 0;
+    char filePath[]= "F:/C++Pro/Git/FFMPEG/demo/test.mpg";
+    vPlayer_sdl2(filePath);
+    getchar();
 }
